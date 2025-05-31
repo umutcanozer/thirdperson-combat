@@ -2,7 +2,6 @@
 
 public class EnemyAnimation
 {
-    private static EnemyAnimation _instance;
     private Animator _anim;
     
     private readonly int _speedHash = Animator.StringToHash("speed");
